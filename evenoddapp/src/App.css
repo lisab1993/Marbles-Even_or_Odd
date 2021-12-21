@@ -1,0 +1,83 @@
+
+.start-card {
+  /* Start Page */
+  width: 90rem;
+  margin: auto;
+  border-radius: 3rem;
+  border-color: black;
+  border: .3rem solid black;
+  padding: 0;
+}
+
+.game-card {
+  /* Start Page */
+  max-width: 60rem;
+  max-height: 30rem;
+  margin: auto;
+  border-radius: 3rem;
+  border: .3rem solid black;
+  padding: 0;
+}
+
+.btn-info {
+  /* Start Button */
+  font-weight:900;
+  font-size: x-large;
+  font-family: 'Game Of Squids', sans-serif;
+  color: rgba(27, 15, 6, 0.876);
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0);
+  transform: skew(-6.5deg, 6.5deg) !important;
+  max-width: 15rem;
+  position: absolute;
+  top: 25rem;
+  left: 47.3rem;
+  transform: translate(-50%, -50%);
+}
+
+.btn-info:hover {
+  /* Start Button */
+  font-weight:900;
+  font-size: x-large;
+  font-family: 'Game Of Squids', sans-serif;
+  color: #ed1b76;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0);
+  transform: skew(-6.5deg, 6.5deg) !important;
+  max-width: 15rem;
+  position: absolute;
+  top: 25rem;
+  left: 47.3rem;
+  transform: translate(-50%, -50%);
+  text-shadow: .09rem .09rem #000000;
+}
+
+.game-form {
+  border: .08rem solid black;
+  background-color: whitesmoke;
+  width: 50rem;
+  height: 10rem;
+  margin: auto;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.game-form-label {
+  margin: auto;
+  height: 1.25rem;
+}
+
+.squid-col {
+  max-width: 175px !important;
+  padding: 0;
+}
+
+.squid-row {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container-fluid {
+  height: 100vh;
+}
